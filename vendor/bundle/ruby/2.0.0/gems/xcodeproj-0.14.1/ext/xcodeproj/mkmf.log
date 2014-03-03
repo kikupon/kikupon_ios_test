@@ -1,0 +1,95 @@
+checking for -std=c99 option to compiler... -------------------- yes
+
+"clang -o conftest -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0/x86_64-darwin13.0.0 -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0/ruby/backward -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0 -I. -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/lib -L. -L/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/lib      -lruby-static  -lpthread -ldl -lobjc "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
+"clang -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0/x86_64-darwin13.0.0 -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0/ruby/backward -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0 -I. -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -std=c99 -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+have_framework: checking for CoreFoundation... -------------------- yes
+
+"clang -o conftest -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0/x86_64-darwin13.0.0 -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0/ruby/backward -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0 -I. -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -std=c99 conftest.c  -L. -L/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/lib -L. -L/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/lib      -lruby-static -ObjC -framework CoreFoundation -lpthread -ldl -lobjc "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <CoreFoundation/CoreFoundation.h>
+4: 
+5: int main(void){return 0;}
+/* end */
+
+--------------------
+
+have_header: checking for CoreFoundation/CoreFoundation.h... -------------------- yes
+
+"clang -E -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0/x86_64-darwin13.0.0 -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0/ruby/backward -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0 -I. -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -std=c99  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <CoreFoundation/CoreFoundation.h>
+/* end */
+
+--------------------
+
+have_header: checking for CoreFoundation/CFStream.h... -------------------- yes
+
+"clang -E -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0/x86_64-darwin13.0.0 -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0/ruby/backward -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0 -I. -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -std=c99  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <CoreFoundation/CFStream.h>
+/* end */
+
+--------------------
+
+have_header: checking for CoreFoundation/CFPropertyList.h... -------------------- yes
+
+"clang -E -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0/x86_64-darwin13.0.0 -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0/ruby/backward -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0 -I. -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -std=c99  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <CoreFoundation/CFPropertyList.h>
+/* end */
+
+--------------------
+
+have_header: checking for ruby/st.h... -------------------- yes
+
+"clang -E -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0/x86_64-darwin13.0.0 -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0/ruby/backward -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include/ruby-2.0.0 -I. -I/Users/kyaukyuai/.anyenv/envs/rbenv/versions/2.0.0-p353/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -std=c99  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <ruby/st.h>
+/* end */
+
+--------------------
+
+extconf.h is:
+/* begin */
+1: #ifndef EXTCONF_H
+2: #define EXTCONF_H
+3: #define HAVE_FRAMEWORK_COREFOUNDATION 1
+4: #define HAVE_COREFOUNDATION_COREFOUNDATION_H 1
+5: #define HAVE_COREFOUNDATION_CFSTREAM_H 1
+6: #define HAVE_COREFOUNDATION_CFPROPERTYLIST_H 1
+7: #define HAVE_RUBY_ST_H 1
+8: #endif
+/* end */
+

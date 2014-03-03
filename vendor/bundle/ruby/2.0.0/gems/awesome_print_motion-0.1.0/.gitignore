@@ -1,0 +1,27 @@
+# Mac OS
+.DS_Store
+
+# TextMate
+*.tmproj
+tmtags
+
+# Emacs
+*~
+\#*
+.\#*
+
+# Vim
+*.swp
+
+# Gem
+coverage
+rdoc
+pkg
+.rvmrc
+
+# Test
+test/.repl_history
+test/build
+test/resources/*.nib
+test/resources/*.momd
+test/resources/*.storyboardc

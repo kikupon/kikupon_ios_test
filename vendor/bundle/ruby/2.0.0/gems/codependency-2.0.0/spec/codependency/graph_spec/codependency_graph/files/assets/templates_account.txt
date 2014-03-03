@@ -1,0 +1,3 @@
+[
+  [0] #<Pathname:../../fixtures/assets/templates/account.js>
+]
